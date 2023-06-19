@@ -1,0 +1,17 @@
+{
+    "name": "alsace7004/inspire",
+    "description": "Un package qui va servire a générer des pensées positives",
+    "autoload": {
+        "psr-4": {
+            "Alsace7004\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alsace7004"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
