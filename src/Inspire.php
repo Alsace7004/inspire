@@ -37,14 +37,8 @@
                     'author'=>'Diane McLaren'
                 ],
             ]; */
-            /*  return response()->json([
-                'response'=>'hello world'
-            ]);  */
             $random_keys=array_rand($response['quotes']);
             return $response['quotes'][$random_keys];
-            //return $response['quotes'];
-            //dd($response[0]['quote']);
-            //return $response[0]['quote'] . ' -' . $response[0]['author'];
         }
     }
 ?>

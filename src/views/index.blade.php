@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Inspirationnal Quote</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -16,8 +16,9 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="container">
-            <h1>{{ $quote['quote'] }}--{{ $quote['author'] }}</h1>
+        <div class="" style="height:100vh;display: flex;justify-content:center;align-items:center;flex-direction:column">
+            <h1 style="font-weight: 900">"{{ $quote['quote'] }}"</h1>
+            <h4>{{ $quote['author'] }}</h4>
         </div>
     </body>
 </html>
